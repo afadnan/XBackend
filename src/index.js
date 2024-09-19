@@ -1,5 +1,6 @@
 import express from "express";
 import connect from "./config/database.js";
+import Tweet from "./model/tweet.js";
 const app = express ();
 
 app.listen(3000,async()=>{
@@ -14,5 +15,11 @@ app.listen(3000,async()=>{
 
     //create a document
     console.log("Mongo database connected");
-    
-});
+
+    Tweet.create({
+        content : "This is my first tweet",
+        likes : 23,
+        noOfRetweets : 7,
+        comment :"This is my first comment"
+    })
+})

@@ -11,7 +11,7 @@ const tweetSchema = new mongoose.Schema({
         type: Number
     },
     comment : {
-        type:ObjectId
+        type:String
     }
 });
 //Model -> always start with capital letter
