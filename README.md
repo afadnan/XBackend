@@ -4,19 +4,19 @@
 #Requirements
 
 //user should be able to post a tweet
-    (TWEET)
-        -- content ( 250 characters MAX)
-        -- image upload
-        -- likes 
-        -- comment tweets
-        -- hashtags(#)
+    (TWEET) ->                                          (model)
+        -- content ( 250 characters MAX)                (schema)
+        -- image upload                                 (schema)
+        -- likes                                        (schema)
+        -- comment tweets                               (schema)
+        -- hashtags(#)                                  (schema)
 
-//(user) 
-        -- username
-        -- no.of Followers
-        -- email/password
-        -- List of tweets
-        -- bio
+//(user) {m}
+        -- username {s}
+        -- no.of Followers {s}
+        -- email/password {s}
+        -- List of tweets {s}
+        -- bio {s}
 
 //(Hashtag)
     -- word

@@ -6,9 +6,11 @@ app.listen(3000,async()=>{
     console.log("server is running on port 3000");
     //mongo db connection establish
     connect();
-    //create a schema
+    //create a schema->blueprint
 
-    //create a model
+
+
+    //create a model->character that we define in the model
 
     //create a document
     console.log("Mongo database connected");
